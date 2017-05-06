@@ -1,11 +1,30 @@
-Hiwi
-----
+# Hiwi
 
-Hiwi is a tool to install otree experiments from a zip file.
+Hiwi is a companion tool for otree that makes it easy to share experiments you created.
 
-# Quickstart
-Download and integrate an experiment in the currently otree project:
+## Features
+- package exeriments in a single zip file
+- publish packages on a repository
+- integrate experiments in otree installations right from the repository
+
+
+## Quickstart
+Integrate an experiment from the repository:
 ```
-hiwi integrate <experiment.zip>
+hiwi integrate <experiment_name>
 ```
 
+Integrate an experiment from a zip file created by hiwi:
+```
+hiwi integrate --local <experiment_name>
+```
+
+Package an experiment:
+```
+hiwi package <name_in_session_config>
+```
+
+Package and publish an experiment on the repo:
+``` 
+hiwi publish <name_in_session_config>
+```

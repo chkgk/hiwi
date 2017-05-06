@@ -22,5 +22,6 @@ setup(name='hiwi',
       },
       install_requires=[
         'docopt',
+        'requests',
       ]
     )
