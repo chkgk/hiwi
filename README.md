@@ -2,7 +2,7 @@
 
 Hiwi is a companion tool for otree that makes it easy to share experiments you created.
 
-__Note: The repository is not live yet.__
+**Note: The repository is not live yet.**
 
 ## Features
 - package exeriments in a single zip file
@@ -28,5 +28,4 @@ hiwi package <name_in_session_config>
 Package and publish an experiment on the repo:
 ``` 
 hiwi publish <name_in_session_config>
-``
-
+```
