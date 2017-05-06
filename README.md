@@ -1,7 +1,7 @@
 # Hiwi
 
 Hiwi is a companion tool for otree that makes it easy to share experiments you created.
-**Note: The repository is not live yet **
+__Note: The repository is not live yet.__
 
 ## Features
 - package exeriments in a single zip file
